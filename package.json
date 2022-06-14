@@ -1,0 +1,25 @@
+{
+  "name": "typescipt-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "build-and-run": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danmazda/typescipt-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danmazda/typescipt-test/issues"
+  },
+  "homepage": "https://github.com/Danmazda/typescipt-test#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
